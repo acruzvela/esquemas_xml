@@ -1,0 +1,53 @@
+sin atributos
+-------------
+
+<menu>
+	<option>
+		<name>Editar</name>
+		<option>
+			<name>Cortar</name>
+			<shortcut>CTRL+X</shortcut>
+		</option>
+		<option>
+			<name>Pegar</name>
+			<shortcut>CTRL+V</shortcut>
+		</option>
+	</option>
+
+	<option>
+		<name>Ver</name>
+		<option>
+			<name>Log</name>
+		</option>
+		<option>
+			<name>Herramientas</name>
+			<option>
+				<name>Fichero</name>
+				<checked>true</checked>
+			</option>
+			<option>
+				<name>Portapapeles</name>
+			</option>
+		</option>
+	</option>
+</menu>
+
+con atributos
+-------------
+
+<menu>
+	<option name="Editar">
+		<option name="Cortar" shortcut="CTRL+X" />
+		<option name="Pegar" shortcut="CTRL+V" />
+	</option>
+
+	<option name="Ver">
+		<option name="Log" />
+		<option name="Herramientas">
+			<option name="Ficheros" checked="true" />
+			<option name="Portapapeles" />
+		</option>
+	</option>
+</menu>
+
+

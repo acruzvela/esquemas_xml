@@ -1,0 +1,39 @@
+<cv>
+	<name>Pepe Pérez</name>
+	<address>c/ Pez 11,5B</address>
+	<telephones>
+		<mobile>680123456</mobile>
+		<land>928123456<land>
+	</telephones>
+	<courses>
+		<course>
+			<title>Master de Desarrollo</title>
+			<date>
+				<starting>12/12/2012</starting>
+				<ending>12/12/2013</ending>
+			</date>
+			<place>Escuela IT</place>
+			<type>on line<type>
+		</course>
+		<course>
+			<title>Master de BBDD</title>
+			<date>
+				<starting>01/01/2013</starting>
+				<ending>02/02/2013</ending>
+			</date>
+			<place>Escuela IT</place>
+			<type>on line<type>
+		</course>
+	</courses>
+	<degrees>
+		<degree>
+			<name>Ingeneiero Telecomuncaciones</name>
+			<date>15/06/2001</date>
+		</degree>
+		<degree>
+			<name>Graduado Cocina</name>
+			<date>01/06/2002</date>
+		</degree>
+
+	</degrees>
+</cv>

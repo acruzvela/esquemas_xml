@@ -1,0 +1,100 @@
+sin atributos
+------------
+
+<timetable>
+	<item>
+		<day>Lunes</day>
+		<time>09:00</time>
+		<subject>Programación</subject>
+	</item>
+
+	<item>
+		<day>Lunes</day>
+		<time>11:00</time>
+		<subject>XML</subject>
+	</item>
+
+	<item>
+		<day>Jueves</day>
+		<time>15:00</time>
+		<subject>Bases de Datos</subject>
+	</item>
+</timetable>
+
+
+<timetable>
+	<monday>
+		<time>09:00</time>
+		<subject>Programación</subject>
+	</monday>
+
+	<monday>
+		<time>11:00</time>
+		<subject>XML</subject>
+	</monday>
+
+	<thursday>
+		<time>15:00</time>
+		<subject>Bases de Datos</subject>
+	</thursday>
+</timetable>
+
+<timetable>
+	<monday>
+		<first>
+			Programación
+		</first>
+		<third>
+			XML
+		</first>
+	</monday>
+
+	<thursday>
+		<first>
+			Programación
+		</first>
+		<fifth>
+			Bases de Datos
+		</fifth>
+	</thursday>
+</timetable>
+
+
+con atributos
+--------------
+
+<timetable>
+	<day name="lunes">
+		<first time="09:00">
+			Programación
+		</first>
+		<third time="11:00">
+			XML
+		</first>
+	</day>
+
+	<day name="jueves">
+		<first time="09:00">
+			Programación
+		</first>
+		<fifth time="15:00">
+			Bases de Datos
+		</fifth>
+	</monday>
+</timetable>
+
+<timetable>
+	<item day="lunes" time="09:00">
+		Programación
+	</item>
+	<item day="lunes" time="11:00">
+		XML
+	</item>
+	<item day="jueves" time="09:00">
+		Programación
+	</item>
+	<item day="jueves" time="15:00">
+		Bases de Datos
+	</item>
+</timetable>
+

@@ -1,0 +1,59 @@
+sin atributos
+-------------
+
+<telephone_book>
+	<person>
+		<name>pepe</name>
+		<mobile>680123456</mobile>
+		<land>928123456</land>
+		<email>pepe@gmail.com</email>
+		<contacts>
+			<contact>
+				 <name>luisa<name>
+			</contact>
+			<contact>
+				 <name>maría<name>
+			</contact>
+		</contacts>
+	</person>
+
+	<person>
+		<name>luisa</name>
+		<mobile>611111111</mobile>
+		<land>911111111</land>
+		<email>luisa@gmail.com</email>
+		<contacts>
+			<contact>
+				 <name>antonio<name>
+			</contact>
+			<contact>
+				 <name>maría<name>
+			</contact>
+		</contacts>
+	</person>
+<telephone_book>
+
+con atributos
+-------------
+
+<telephone_book>
+	<person name="pepe">
+		<mobile>680123456</mobile>
+		<land>928123456</land>
+		<email>pepe@gmail.com</email>
+		<contacts>
+			<contact name="luisa">
+			<contact name="maría">
+		</contacts>
+	</person>
+
+	<person name="luisa">
+		<mobile>611111111</mobile>
+		<land>911111111</land>
+		<email>luisa@gmail.com</email>
+		<contacts>
+			<contact name="antonio">
+			<contact name="maría">
+		</contacts>
+	</person>
+<telephone_book>
